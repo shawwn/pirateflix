@@ -2,7 +2,7 @@ import fetch from 'isomorphic-fetch';
 
 // TODO: will come from setup
 const config = {
-  url: 'http://thepiratebay.se',
+  url: 'http://thepiratebay.org',
 };
 
 export default async function get({ search, page }) {
